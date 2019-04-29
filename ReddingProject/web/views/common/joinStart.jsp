@@ -17,15 +17,22 @@
 		<jsp:include page="m_nav.jsp"></jsp:include>
 	</nav>
 	<section>
-		<form>
+		<div class = "form">
+			<br>
 			<label class = "title">회원가입</label>
+			<br><br>
 			<div class = "sign_div1">
-				
+				<div id = "sign1">
+					<img src = "<%=request.getContextPath()%>/images/user_icon.png" alt = "user"><br>
+					<label>만 14세 이상 회원가입 가능</label><br>
+					<button id = "goSign">회원가입</button>
+				</div>
 			</div>
+			<br><br>
 			<div class = "sign_div2">
 				
 			</div>
-		</form>
+		</div>
 	</section>
 	<footer>
 	</footer>

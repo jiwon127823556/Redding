@@ -1,11 +1,52 @@
 @charset "UTF-8";
 
-.sign_div1{
-	width: 500px;
-	height: 300px;
-	background: red;
+section{
+	min-height: 100%;
 }
 
-form{
-	text-align : center;
+.form{
+	text-align:center;
+}
+
+.sign_div1{
+	border-top : 1px solid blak;
+	border-bottom : 1px solid blak;
+	width: 500px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sign_div1>img{
+	width: auto;
+	height: auto;
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.sign_div2{
+	width: 500px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	border : 1px solid black;
+}
+
+.title{
+	font-size : 20px;
+}
+
+#goSign{
+	radius : 2px;
+	backgroud : #fb6d5f;
+	color : white;
+	border: none;
+ 	text-align: center;
+ 	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+}
+
+#sign{
+	margin-top: 10px;
 }
