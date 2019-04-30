@@ -17,7 +17,7 @@ header {
 nav {
 	width: 100%;
 	min-height : 10%;
-	background: #ffd6d6;
+	background: #FF7DA2;
 }
 
 section {
@@ -28,7 +28,7 @@ section {
 footer {
 	width: 100%;
 	min-height : 15%;
-	background: gray;
+	background: #A4A3A3;
 }
 
 /*모바일..안해도 상관없음  */
