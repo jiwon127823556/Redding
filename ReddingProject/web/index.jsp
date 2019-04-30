@@ -22,6 +22,7 @@
 	<section>
 	</section>
 	<footer>
+		<jsp:include page = "views/common/footer.jsp"></jsp:include>
 	</footer>
 	
 </body>
