@@ -1,9 +1,10 @@
 @charset "UTF-8";
 #footerTotal{
 	font-family:sunFlower;
-	height: 60px;
+	height: 80px;
 }
 #footerLogo{
+	height: 80px;
 	width: 15%;
 	float: left;
 }
@@ -37,4 +38,7 @@
 #footerLink{
 	text-decoration: none;
 	color: black;
+}
+#footerLink:hover{
+	color: red;
 }
