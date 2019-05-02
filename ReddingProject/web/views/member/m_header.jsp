@@ -38,9 +38,7 @@
 
 		<li><a
 			href="<%=request.getContextPath() %>/views/common/login.jsp">login</a></li>
-		<li><a
-			href="<%=request.getContextPath() %>/views/common/joinStart.jsp">Sign
-				up</a></li>
+		<li><a href="<%=request.getContextPath() %>/views/common/joinStart.jsp">Sign up</a></li>
 	</ul>
 	<%}else{ %>
 	<table>

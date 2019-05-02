@@ -14,10 +14,10 @@
 </head>
 <body>
 	<header>
-		<jsp:include page="m_header.jsp"></jsp:include>
+		<jsp:include page = "<%=request.getContextPath() %>/views/member/m_header.jsp"></jsp:include>
 	</header>
 	<nav>
-		<jsp:include page="m_nav.jsp"></jsp:include>
+		<jsp:include page = "<%=request.getContextPath() %>/views/member/m_nav.jsp"></jsp:include>
 	</nav>
 	<section>
 		<div class = "login">
