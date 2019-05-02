@@ -12,11 +12,11 @@
 </head>
 <body>
 	<header>
-		<jsp:include page = "<%=request.getContextPath() %>/views/member/m_header.jsp"></jsp:include>
+		<jsp:include page = "/views/member/m_header.jsp"></jsp:include>
 	</header>
 	<nav>
-		<jsp:include page = "<%=request.getContextPath() %>/views/member/m_nav.jsp"></jsp:include>
-	</nav>
+		<jsp:include page = "/views/member/m_nav.jsp"></jsp:include>
+	</nav>	
 	<section>
 		<div class = "form">
 			<br>
